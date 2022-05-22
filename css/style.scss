@@ -453,7 +453,7 @@ main{
                 border: 2px solid var(--background-btn);
 
                 @media(max-width: 999px){
-                    width: 200px;
+                    width: 150px;
                 }
             }
 
@@ -478,7 +478,8 @@ main{
                 font-size: 3vh;
 
                 @media(max-width: 999px){
-                    padding: 10px;;
+                    padding: 10px;
+                    font-size: 2vh;
                 }
             }
 
