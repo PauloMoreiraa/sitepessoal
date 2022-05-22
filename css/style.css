@@ -668,6 +668,8 @@ main .part2 .foto img {
   background-color: var(--basic-fontII);
   width: 100%;
   height: auto;
+  -webkit-box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
 }
 
 #blog #space2 {
@@ -926,6 +928,8 @@ main .part2 .foto img {
   width: 100%;
   height: auto;
   background-color: var(--basic-font);
+  -webkit-box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
 }
 
 #blog .plus .space3 {
@@ -936,7 +940,9 @@ main .part2 .foto img {
 
 #blog .plus #mais {
   width: 100%;
-  text-align: center;
+  text-align: left;
+  padding-left: 20%;
+  padding-bottom: 20px;
   font-size: 4vh;
   color: var(--basic-fontII);
 }
@@ -944,6 +950,7 @@ main .part2 .foto img {
 #blog .plus .fotos {
   width: 100%;
   height: auto;
+  padding-bottom: 50px;
   padding-left: 100px;
   padding-right: 100px;
   display: -webkit-box;
@@ -957,11 +964,11 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus1 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog1.jpg");
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus1 .legenda1 {
@@ -996,12 +1003,12 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus2 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog9.jpg");
   background-position: center center;
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus2 .legenda2 {
@@ -1036,11 +1043,11 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus3 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog8.jpg");
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus3 .legenda3 {
@@ -1075,12 +1082,12 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus4 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog10.jpg");
   background-position: center;
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus4 .legenda4 {
@@ -1115,11 +1122,11 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus5 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog11.jpg");
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus5 .legenda5 {
@@ -1154,11 +1161,11 @@ main .part2 .foto img {
 }
 
 #blog .plus .fotos .fotoplus6 {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: 300px;
   background-image: url("../img/blog12.jpg");
   background-size: cover;
-  margin: 6px;
+  margin: 2px;
 }
 
 #blog .plus .fotos .fotoplus6 .legenda6 {
@@ -1196,5 +1203,117 @@ main .part2 .foto img {
   #blog .plus .fotos {
     padding: 20px;
   }
+}
+
+#carreira {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--basic-fontII);
+  -webkit-box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+}
+
+#carreira #space4 {
+  width: 100%;
+  height: 9vh;
+  background-color: transparent;
+}
+
+#carreira .title-trabalho {
+  width: 100%;
+  height: 11vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#carreira .title-trabalho h2 {
+  color: var(--basic-font);
+  font-size: 5vh;
+}
+
+#carreira .title-trabalho .under3 {
+  width: 5vw;
+  height: 3px;
+  background-color: var(--basic-font);
+}
+
+#carreira .card-carreira {
+  width: 100%;
+  height: 60vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#carreira .card-carreira .card {
+  width: 400px;
+  height: 55vh;
+  background-color: #FFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 12px;
+  -webkit-box-shadow: 5px 5px 5px #2727273a;
+          box-shadow: 5px 5px 5px #2727273a;
+}
+
+#carreira .card-carreira .card .mala {
+  width: 100%;
+  background-color: transparent;
+  font-size: 7vh;
+  text-align: center;
+  color: var(--basic-font);
+  padding: 10px;
+}
+
+#carreira .card-carreira .card #sup {
+  font-size: 5vh;
+  color: var(--basic-font);
+  padding: 10px;
+  text-align: center;
+}
+
+#carreira .card-carreira .card #emp {
+  font-size: 3vh;
+  color: var(--background-btn);
+  text-align: center;
+  padding: 10px;
+}
+
+#carreira .card-carreira .card #ano {
+  font-size: 2vh;
+  color: #cccccc;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
 }
 /*# sourceMappingURL=style.css.map */
