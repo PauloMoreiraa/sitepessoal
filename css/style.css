@@ -1316,4 +1316,179 @@ main .part2 .foto img {
   padding: 10px;
   letter-spacing: 1px;
 }
+
+#contato {
+  width: 100%;
+  height: 90vh;
+  background-color: var(--basic-font);
+  -webkit-box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0px -8px 10px rgba(0, 0, 0, 0.3);
+}
+
+#contato #space5 {
+  width: 100%;
+  height: 9vh;
+  background-color: transparent;
+}
+
+#contato .title-contato {
+  width: 100%;
+  height: 11vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contato .title-contato h2 {
+  color: var(--basic-fontII);
+  font-size: 5vh;
+}
+
+#contato .title-contato .under4 {
+  width: 5vw;
+  height: 3px;
+  background-color: var(--basic-fontII);
+}
+
+#contato .formulario {
+  width: 100%;
+  height: 70vh;
+  background-color: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+}
+
+#contato .formulario .card-form {
+  width: 100vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#contato .formulario .card-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  overflow-y: hidden;
+}
+
+#contato .formulario .card-form form input {
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#contato .formulario .card-form form input:focus {
+  outline: none;
+}
+
+#contato .formulario .card-form form textarea {
+  width: 400px;
+  height: 100px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#contato .formulario .card-form form textarea:focus {
+  outline: none;
+}
+
+#contato .formulario .card-form form button {
+  color: var(--basic-fontII);
+  background-color: var(--background-btn);
+  border: none;
+  width: 400px;
+  height: 50px;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#contato .formulario .card-form form button:hover {
+  color: var(--basic-fontII);
+  background-color: var(--logo);
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #131313;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .logof {
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+footer .logof #logofooter {
+  color: var(--diff-font);
+  font-size: 4vh;
+}
+
+footer .logof #logofooter b {
+  color: var(--logo);
+}
+
+footer .sociaisf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .sociaisf a {
+  text-decoration: none;
+  color: var(--diff-font);
+  padding: 5px;
+  font-size: 4vh;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer .sociaisf a:hover {
+  color: var(--background-btn);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+footer .copy {
+  color: rgba(255, 255, 255, 0.63);
+  padding: 20px;
+}
 /*# sourceMappingURL=style.css.map */
